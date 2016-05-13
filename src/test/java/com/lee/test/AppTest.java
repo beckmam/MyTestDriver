@@ -1,5 +1,7 @@
 package com.lee.test;
 
+import org.testng.Assert;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -35,6 +37,6 @@ public class AppTest
     @org.testng.annotations.Test
     public void testApp()
     {
-        assertTrue( false );
+    	Assert.assertEquals(1,2);
     }
 }
