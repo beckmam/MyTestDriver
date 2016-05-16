@@ -38,11 +38,13 @@ public class AppTest
     public void testApp_failed()
     {
     	Assert.assertEquals(1,2);
+    	System.out.println("1不等于2，运行失败！");
     }
     
     @org.testng.annotations.Test
     public void testApp_pass()
     {
     	Assert.assertEquals(1,1);
+    	System.out.println("1等于1，运行通过！");
     }
 }
