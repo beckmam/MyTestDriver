@@ -35,8 +35,14 @@ public class AppTest
      */
     
     @org.testng.annotations.Test
-    public void testApp()
+    public void testApp_failed()
     {
     	Assert.assertEquals(1,2);
+    }
+    
+    @org.testng.annotations.Test
+    public void testApp_pass()
+    {
+    	Assert.assertEquals(1,1);
     }
 }
