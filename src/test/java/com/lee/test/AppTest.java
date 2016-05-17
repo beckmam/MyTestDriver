@@ -34,14 +34,14 @@ public class AppTest
      * Rigourous Test :-)
      */
     
-/*    @org.testng.annotations.Test
+    @org.testng.annotations.Test
     public void testApp_failed()
     {
     	System.out.println("1不等于2，运行失败！");
     	Assert.assertEquals(1,2);
     	
     }
-    */
+    
     
     @org.testng.annotations.Test
     public void testApp_pass()
