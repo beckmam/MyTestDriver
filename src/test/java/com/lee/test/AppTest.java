@@ -33,7 +33,7 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-/*    
+    
     @org.testng.annotations.Test
     public void testApp_failed()
     {
@@ -41,7 +41,7 @@ public class AppTest
     	Assert.assertEquals(1,2);
     	
     }
-*/    
+    
     
     @org.testng.annotations.Test
     public void testApp_pass()
