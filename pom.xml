@@ -75,14 +75,14 @@
 		<repository>
 			<id>nexus</id>
 			<name>Nexus</name>
-			<url>http://localhost:8081/nexus/content/groups/public/</url>
+			<url>http://192.168.199.65:8081/nexus/content/groups/public/</url>
 		</repository>
 	</distributionManagement>
 	<repositories>
 		<repository>
 			<id>nexus</id>
 			<name>Nexus</name>
-			<url>http://localhost:8081/nexus/content/groups/public/</url>
+			<url>http://192.168.199.65:8081/nexus/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
